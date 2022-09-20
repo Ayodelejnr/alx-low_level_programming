@@ -5,8 +5,8 @@
  * @str: a printer
  */
 
-void puts_half(char *str);
- {
+void puts_half(char *str)
+{
     int index = 0, len = 0, n;
 
     while (str[index++])
