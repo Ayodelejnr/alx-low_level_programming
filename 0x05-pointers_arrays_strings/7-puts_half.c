@@ -5,7 +5,7 @@
  * @str: a printer
  */
 
-void puts_half(char *str)
+void puts_half (char *str)
 {
     int index = 0, len = 0, n;
 
@@ -18,7 +18,7 @@ void puts_half(char *str)
         n = (len + 1) / 2;
 
     for (index = n; index < len; index++)
-        _putchar(str[index]);
+        _putchar (str[index]);
 
     _putchar('\n');
  }
